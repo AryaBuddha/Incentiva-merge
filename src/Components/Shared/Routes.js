@@ -1,0 +1,31 @@
+import Check from '@material-ui/icons/Check'
+import AccessTime from '@material-ui/icons/AccessTime'
+import Notes from '@material-ui/icons/Notes'
+import Star from '@material-ui/icons/Star'
+
+
+
+const routes = {
+    
+    "Tasks": {
+        icon: <Check />,
+        path: "/tasks"
+    },
+    
+    "Study Mode": {
+        icon: <AccessTime />,
+        path: "/study"
+    },
+    
+    "Notes": {
+        icon: <Notes />,
+        path: "/notes"
+    },
+
+    "Insights": {
+        icon: <Star />,
+        path: "/insights"
+    },
+}
+
+export default routes
